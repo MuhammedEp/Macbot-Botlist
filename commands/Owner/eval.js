@@ -1,0 +1,24 @@
+module.exports = [{
+   name:"eval",
+   code:`
+   $eval[$message]
+   $onlyForIDs[858951074164244490;aaaa]
+   `
+   },
+     {
+         name:"if",
+         $if:"old",
+         code:`
+         $eval[$message]
+   $onlyForIDs[858951074164244490;aa]
+         `
+},
+  {
+      name:"djs",
+      code:`
+\`\`\`js
+$djsEval[$message;true]
+\`\`\`
+$onlyForIDs[858951074164244490;]
+      `
+      }]
