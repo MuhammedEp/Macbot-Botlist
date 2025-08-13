@@ -1,7 +1,7 @@
 module.exports = {
     Bot: {
         token: "TOKEN",
-        prefix: "?",
+        prefix: "!",
   intents: ["MessageContent","Guilds","GuildMembers","GuildBans","GuildEmojisAndStickers","GuildIntegrations","GuildWebhooks","GuildInvites","GuildVoiceStates","GuildPresences","GuildMessages","GuildMessageReactions","GuildMessageTyping"],
   events: ["onApplicationCommandPermissionsUpdate","onMessage","onMessageDelete","onMessageUpdate","onMessageDeleteBulk","onJoin","onLeave","onGuildUpdate","onGuildUnavailable","onBanAdd","onBanRemove","onVoiceStateUpdate","onInteractionCreate","onUserUpdate","onFunctionError",],
   guildOnly: true,
