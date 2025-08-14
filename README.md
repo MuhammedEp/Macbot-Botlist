@@ -6,4 +6,7 @@ Kurulumu ve kullanımı basit kendi botlist botunuzu oluşturun.
 
 2. **/config.js** dosyası içindeki "TOKEN" kısmına kendi bot tokeninizi yapıştırın.
 
-3. **/commands/Owner.js** klasörü içindeki **eval.js** kodundaki **ID** kısmına kendi discord kullanıcı IDnizi yapıştırın.
+3. **/commands/Owner.js** klasörü içindeki **eval.js** kodundaki <ID> kısmına kendi discord kullanıcı IDnizi yapıştırın.
+
+Şimdilik bu kadar.
+İlerideki güncellemerde görüşmek üzere.
