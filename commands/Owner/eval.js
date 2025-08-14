@@ -1,24 +1,24 @@
 module.exports = [{
-   name:"eval",
+   name:"eval", // Komut testi
    code:`
    $eval[$message]
-   $onlyForIDs[858951074164244490;aaaa]
+   $onlyForIDs[<ID>;Bu komut sahibime özel]
    `
    },
      {
-         name:"if",
+         name:"if", // Aoi.js if old hızlı kullanımı 
          $if:"old",
          code:`
          $eval[$message]
-   $onlyForIDs[858951074164244490;aa]
+   $onlyForIDs[<ID>;]
          `
 },
   {
-      name:"djs",
+      name:"djs", // D.JS ile komut testi
       code:`
 \`\`\`js
 $djsEval[$message;true]
 \`\`\`
-$onlyForIDs[858951074164244490;]
+$onlyForIDs[<ID>;]
       `
       }]
