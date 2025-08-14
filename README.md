@@ -12,4 +12,4 @@ Kurulumu ve kullanımı basit kendi botlist botunuzu oluşturun.
 İlerideki güncellemerde görüşmek üzere.
 
 * Macbot Destek sunucusuna bekliyorum
-  https://discord.gg/HCMwexpam6
+  [Sunucu Daveti](https://discord.gg/HCMwexpam6)
