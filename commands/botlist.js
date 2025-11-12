@@ -23,6 +23,7 @@ $description[
       code:`
 $textSplitMap[botlistsira]
 $textSplit[$dbGet[$guildID;sira];,]
+$onlyIf[$dbGet[$guildID;sira]!=;{newContainer:{text:Sırada bot yok}{color:Green}}{deleteIn:10s} {reply:$messageID:false}]
       `
  },
    {
@@ -43,7 +44,7 @@ $footer[$userDisplayName;$userAvatar]
 $thumbnail[$guildIcon]
 $description[<@$replaceText[$dbGet[$guildID.$get[user];botlist];,;>
 <@]>]
-$onlyIf[$isNumber[$advancedTextSplit[$dbGet[$guildID.$findMember[$message[1]];botlist];,;1]]==true;❌ **$userDisplayName[$findMember[$message[1]]]** hiç bot eklememiş.{reply:$messageID:false}]
+$onlyIf[$isNumber[$advancedTextSplit[$dbGet[$guildID.$findMember[$message[1]];botlist];,;1]]==true;{newContainer:{text:❌ **$userDisplayName[$findMember[$message[1]]]** hiç bot eklememiş.}{color:Red}}{deleteIn:10s}{reply:$messageID:false}]
 $let[user;$findMember[$message[1]]]
 `
      }
